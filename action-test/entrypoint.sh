@@ -3,6 +3,7 @@
 apt-get update --yes
 apt-get install --yes cmake
 apt-get install --yes git
+apt-get install --yes g++-8
 
 mkdir lib
 cd lib
@@ -11,7 +12,7 @@ git clone https://github.com/google/googletest/
 cd ..
 mkdir build
 cd build
-cmake ..
+cmake .. -DCMAKE_CXX_COMPILER=g++-8
 make all
 
 
