@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set project name
-project(clever)
+project(githubAction)
 
 # set compile features
 set(CMAKE_CXX_STANDARD 17)
