@@ -15,7 +15,7 @@ cd build
 cmake .. -DCMAKE_CXX_COMPILER=g++-8
 make all
 
-chmod +x build/test/githubAction_test
-./build/test/githubAction_test
+chmod +x ../build/test/githubAction_test
+./../build/test/githubAction_test
 
 
