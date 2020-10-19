@@ -15,4 +15,6 @@ cd build
 cmake .. -DCMAKE_CXX_COMPILER=g++-8
 make all
 
+./build/test/githubAction_test
+
 
